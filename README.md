@@ -2,7 +2,7 @@
 # Userbar Generator
 
 ## General
-Generate classic forum style userbars. Includes Web UI.
+Generate classic forum style userbars. Includes Web UI.  
 Example:  
 ![example userbar](template/example_ub.png)
 

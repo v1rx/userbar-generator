@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Visitor2'; /*a name to be used later*/
+    src: url('/g/visitor2.ttf'); /*URL to font*/
+}
+
+body
+{
+    background-color: #191919;
+    color: #e9e9e9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', monospace;
+}
+
+body > div.container
+{
+    display: block;
+    width: 344px;
+    max-width: 100vw;
+    padding: 20px;
+    background-color: #101010;
+    border: 2px dashed #1e1e1e;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+body > div.container div.header:not(:first-child)
+{
+    margin-top: 10px;
+}
+
+body > div.container div.header
+{
+    margin-bottom: 2px;
+}
+
+body > div.container label
+{
+    display: block;
+}
+
+body > div.container input:not([type="submit"])
+{
+    width: calc(100% - 8px);
+}
+
+body > div.container select,
+body > div.container input[type="submit"]
+{
+    width: 100%;
+}
+
+body > div.container input[type="submit"]
+{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+body > div.container > div.result
+{
+    margin-top: 20px;
+    display: none;
+}
+
+.not {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.version {
+    color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.foot {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    height: 15px;
+    margin: 5px 5px 0px 0px;
+    text-align: right;
+    background-color: #101010;
+    border: 2px dashed #1e1e1e;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.foot > a {
+    
+    color: white;
+    text-shadow: 0px 1px 0px black, 0px -1px 0px black;
+    text-decoration: none;
+    font-family: 'Visitor2';
+}
+
+.foot > a:hover {
+  border-bottom: 1px solid #fff;
+}

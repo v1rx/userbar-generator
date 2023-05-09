@@ -33,8 +33,8 @@ function getFiles($directory, $extensions)
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./style.css?v=<?= time();?>">
-    <script src="./script.js?v=<?= time();?>" defer></script> 
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script> 
  </head>
 <body>
     <div class="container">

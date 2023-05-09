@@ -1,6 +1,8 @@
 ![banner](template/banner.png)
 # Userbar Generator
 
+Made with help from [sixem](https://github.com/sixem).
+
 ## General
 Generate classic forum style userbars. Includes Web UI.  
 Example:  
